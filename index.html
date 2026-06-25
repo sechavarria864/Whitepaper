@@ -8,7 +8,7 @@
   <script src="./assets/js/script.js" defer></script>
 </head>
 <body>
-  <header class="site-header">
+ <header class="site-header">
   <div class="header-inner">
     <a href="#" class="logo-link" aria-label="VIDEO GUARD">
       <img
@@ -48,94 +48,65 @@
 </header>
 
 <!-- ============================================================
-     SOLAR HERO SECTION
-     Unsplash placeholder images used – replace with real assets.
+     WHITEPAPER HERO SECTION
+     Replace Unsplash image with real asset when ready.
      ============================================================ -->
-<section class="solar-hero">
+<section class="wp-hero">
+
+  <!-- Diagonal background shape (yellow upper-left, white lower-right) -->
+  <div class="wp-hero__bg" aria-hidden="true"></div>
 
   <!-- ── LEFT COLUMN ── -->
-  <div class="solar-hero__left">
+  <div class="wp-hero__left">
 
-    <!-- Pill badge -->
-    <div class="solar-hero__badge">
-      VIDEO GUARD <strong>SOLAR</strong>
-    </div>
+    <!-- Eyebrow label -->
+    <p class="wp-hero__eyebrow">VIDEO GUARD</p>
 
     <!-- Title -->
-    <h1 class="solar-hero__title">
-      Die Lösung für eine zuverlässige Überwachung an Orten
-      <strong>ohne Zugang zu Stromnetzen.</strong>
-    </h1>
+    <h1 class="wp-hero__title">SICHERHEIT AUF<br>DER BAUSTELLE</h1>
+
+    <!-- Description -->
+    <p class="wp-hero__desc">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+      incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+      exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+      irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+      nulla pariatur.
+    </p>
 
     <!-- CTA button -->
-    <a href="#" class="solar-hero__btn btn btn-primary">
-      <span class="solar-hero__btn-full">Kostenloses Angebot anfragen</span>
-      <span class="solar-hero__btn-short">Angebot anfragen</span>
-    </a>
+    <a href="#" class="wp-hero__btn">Kostenlos herunterladen</a>
 
-    <!-- Divider + stats (desktop only) -->
-    <div class="solar-hero__divider"></div>
+    <!-- Divider + stats — desktop only -->
+    <div class="wp-hero__divider"></div>
 
-    <div class="solar-hero__stats">
-      <div class="solar-hero__stat">
-        <div class="solar-hero__stat-number counter" data-target="275301">0</div>
-        <div class="solar-hero__stat-label">Gefahren abgewendet</div>
+    <div class="wp-hero__stats">
+      <div class="wp-hero__stat">
+        <div class="wp-hero__stat-number counter" data-target="275301">0</div>
+        <div class="wp-hero__stat-label">Gefahren abgewendet</div>
       </div>
-      <div class="solar-hero__stat">
-        <div class="solar-hero__stat-number counter" data-target="8217">0</div>
-        <div class="solar-hero__stat-label">Geschützte Baustellen</div>
+      <div class="wp-hero__stat">
+        <div class="wp-hero__stat-number counter" data-target="8217">0</div>
+        <div class="wp-hero__stat-label">Geschützte Baustellen</div>
       </div>
-      <div class="solar-hero__stat">
-        <div class="solar-hero__stat-number counter" data-target="2226">0</div>
-        <div class="solar-hero__stat-label">Zufriedene Kunden</div>
+      <div class="wp-hero__stat">
+        <div class="wp-hero__stat-number counter" data-target="2226">0</div>
+        <div class="wp-hero__stat-label">Zufriedene Kunden</div>
       </div>
     </div>
 
   </div>
 
-  <!-- ── RIGHT COLUMN (carousel) ── -->
-  <div class="solar-hero__carousel-outer">
-    <div class="solar-hero__carousel-track" id="solarTrack">
-
-      <div class="solar-hero__slide">
-        <img
-          src="https://images.unsplash.com/photo-1509391366360-2e959784a276?w=900&q=80"
-          alt="Solar-Überwachung – 275.301 Gefahren abgewendet"
-          loading="eager"
-        >
-        <div class="solar-hero__slide-overlay"></div>
-        <div class="solar-hero__slide-label">
-          <span class="solar-hero__slide-number">275.301</span>
-          <span class="solar-hero__slide-sublabel">Gefahren abgewendet</span>
-        </div>
-      </div>
-
-      <div class="solar-hero__slide">
-        <img
-          src="https://images.unsplash.com/photo-1466611653911-95081537e5b7?w=900&q=80"
-          alt="Solar-Überwachung – 8.217 Geschützte Baustellen"
-          loading="lazy"
-        >
-        <div class="solar-hero__slide-overlay"></div>
-        <div class="solar-hero__slide-label">
-          <span class="solar-hero__slide-number">8.217</span>
-          <span class="solar-hero__slide-sublabel">Geschützte Baustellen</span>
-        </div>
-      </div>
-
-      <div class="solar-hero__slide">
-        <img
-          src="https://images.unsplash.com/photo-1497435334941-8c899a9bd6b3?w=900&q=80"
-          alt="Solar-Überwachung – 2.226 Zufriedene Kunden"
-          loading="lazy"
-        >
-        <div class="solar-hero__slide-overlay"></div>
-        <div class="solar-hero__slide-label">
-          <span class="solar-hero__slide-number">2.226</span>
-          <span class="solar-hero__slide-sublabel">Zufriedene Kunden</span>
-        </div>
-      </div>
-
+  <!-- ── RIGHT COLUMN (single image) ── -->
+  <div class="wp-hero__right">
+    <div class="wp-hero__img-wrap">
+      <img
+        src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&q=80"
+        alt="Sicherheit auf der Baustelle"
+        loading="eager"
+        width="600"
+        height="800"
+      >
     </div>
   </div>
 
