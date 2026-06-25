@@ -142,9 +142,9 @@ p {
   right: 0;
   z-index: 1000;
   padding: 1rem 1.5rem;
-  background: #f2e519;
+  background: #ffffff;
   color: #000000;
-  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.12);
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.08);
 }
 
 .header-inner {
@@ -176,7 +176,7 @@ p {
 
 .desktop-nav a:hover,
 .mobile-nav a:hover {
-  color: #ffffff;
+  opacity: 0.6;
 }
 
 .menu-toggle {
@@ -227,11 +227,30 @@ p {
 .mobile-nav a {
   display: block;
   padding: 0.9rem 0;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
 }
 
 .mobile-nav a:last-child {
   border-bottom: 0;
+}
+
+@media (max-width: 799px) {
+  .site-header {
+    background: #F2E519;
+    box-shadow: none;
+  }
+
+  .site-logo {
+    height: 1.75rem;
+  }
+
+  .desktop-nav {
+    display: none;
+  }
+
+  .menu-toggle {
+    display: inline-flex;
+  }
 }
 
 .hero {
@@ -2904,5 +2923,237 @@ p {
 
   .solar-hero__title {
     font-size: clamp(1.5rem, 3vw, 2rem);
+  }
+}
+
+/* ============================================================
+   WHITEPAPER HERO SECTION
+   ============================================================ */
+
+.wp-hero {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: stretch;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 100px 0 0 48px;
+  overflow: hidden;
+  min-height: 600px;
+}
+
+/* ── Diagonal background ── */
+/*
+   A pseudo-element creates the yellow diagonal shape.
+   It covers the full section, with a CSS clip-path that cuts
+   diagonally from top-left (yellow) to bottom-right (white).
+   The cut line runs from roughly (0, 75%) on the left edge
+   to (55%, 0%) at the top — creating the angled split visible
+   in the desktop design reference.
+*/
+.wp-hero__bg {
+  position: absolute;
+  inset: 0;
+  background: #F2E519;
+  clip-path: polygon(0 0, 55% 0, 0 78%);
+  z-index: 0;
+  pointer-events: none;
+}
+
+/* ── LEFT COLUMN ── */
+.wp-hero__left {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-right: 48px;
+  padding-bottom: 72px;
+}
+
+/* Eyebrow label */
+.wp-hero__eyebrow {
+  font-size: 0.875rem;
+  font-weight: 700;
+  color: #000000;
+  letter-spacing: 0.04em;
+  margin: 0 0 0.5rem;
+  text-transform: uppercase;
+}
+
+/* Title — large, uppercase, bold, black */
+.wp-hero__title {
+  font-size: clamp(2.5rem, 5.5vw, 4.5rem);
+  font-weight: 900;
+  line-height: 1.0;
+  color: #000000;
+  margin: 0 0 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: -0.01em;
+}
+
+/* Description text */
+.wp-hero__desc {
+  font-size: 1rem;
+  line-height: 1.65;
+  color: #000000;
+  max-width: 38rem;
+  margin: 0 0 2rem;
+}
+
+/* CTA button */
+.wp-hero__btn {
+  display: inline-block;
+  background: #F2E519;
+  color: #000000;
+  font-weight: 700;
+  font-size: 0.9375rem;
+  padding: 0.9rem 1.5rem;
+  text-decoration: none;
+  width: fit-content;
+  border: 2px solid #000000;
+  cursor: pointer;
+  transition: background 0.2s ease, color 0.2s ease;
+  margin-bottom: 2rem;
+}
+
+.wp-hero__btn:hover {
+  background: #000000;
+  color: #F2E519;
+}
+
+/* Divider */
+.wp-hero__divider {
+  width: 100%;
+  height: 1px;
+  background: #F2E519;
+  margin-bottom: 1.25rem;
+  /* On white background the yellow line needs a subtle border to show */
+  border-bottom: 1px solid rgba(0,0,0,0.12);
+}
+
+/* Stats row */
+.wp-hero__stats {
+  display: flex;
+  gap: 2.5rem;
+}
+
+.wp-hero__stat-number {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 0.15rem;
+  color: #000000;
+}
+
+.wp-hero__stat-label {
+  font-size: 0.75rem;
+  color: #000000;
+  opacity: 0.7;
+}
+
+/* ── RIGHT COLUMN ── */
+.wp-hero__right {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding-bottom: 0;
+}
+
+/* Image wrapper with corner cut */
+.wp-hero__img-wrap {
+  width: 70%;
+  max-width: 380px;
+  aspect-ratio: 3 / 4;
+  overflow: hidden;
+  clip-path: polygon(0 0, 100% 0, 100% calc(100% - 30px), calc(100% - 30px) 100%, 0 100%);
+  filter: drop-shadow(0 8px 32px rgba(0,0,0,0.18)) drop-shadow(0 2px 6px rgba(0,0,0,0.10));
+  flex-shrink: 0;
+}
+
+.wp-hero__img-wrap img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+  display: block;
+}
+
+/* ── MOBILE ── */
+@media (max-width: 767px) {
+
+  .wp-hero {
+    grid-template-columns: 1fr;
+    padding: 80px 0 0;
+    overflow: visible;
+    min-height: unset;
+    background: #ffffff;
+  }
+
+  /* On mobile the yellow diagonal covers only the text/button area */
+  .wp-hero__bg {
+    /* Yellow fills top portion, diagonal cuts at roughly 72% height of left column */
+    clip-path: polygon(0 0, 100% 0, 100% 62%, 0 88%);
+  }
+
+  /* Left col */
+  .wp-hero__left {
+    padding: 32px 24px 40px;
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  .wp-hero__title {
+    font-size: clamp(2rem, 10vw, 3rem);
+    margin-bottom: 1rem;
+  }
+
+  .wp-hero__desc {
+    font-size: 0.9375rem;
+  }
+
+  .wp-hero__btn {
+    margin-bottom: 0;
+  }
+
+  /* Hide divider and stats on mobile */
+  .wp-hero__divider,
+  .wp-hero__stats {
+    display: none;
+  }
+
+  /* Right col: image centered below */
+  .wp-hero__right {
+    padding: 32px 24px 48px;
+    justify-content: center;
+    background: transparent;
+    position: relative;
+    z-index: 1;
+  }
+
+  .wp-hero__img-wrap {
+    width: 75%;
+    max-width: 320px;
+  }
+}
+
+/* ── TABLET (768–1023px) ── */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .wp-hero {
+    padding: 90px 0 0 32px;
+  }
+
+  .wp-hero__left {
+    padding-right: 24px;
+    padding-bottom: 56px;
+  }
+
+  .wp-hero__title {
+    font-size: clamp(2rem, 4vw, 3rem);
+  }
+
+  .wp-hero__img-wrap {
+    width: 85%;
   }
 }
