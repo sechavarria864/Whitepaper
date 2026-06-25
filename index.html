@@ -1,0 +1,1267 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Test Page</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <script src="./assets/js/script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+  <div class="header-inner">
+    <a href="#" class="logo-link" aria-label="VIDEO GUARD">
+      <img
+        src="./assets/images/logos/Video Guard LOGO Black.png"
+        alt="VIDEO GUARD Logo"
+        class="site-logo"
+      >
+    </a>
+
+    <nav class="desktop-nav" aria-label="Hauptnavigation">
+      <a href="#">Überwachung</a>
+      <a href="#">Brandfrüherkennung</a>
+      <a href="#">Über uns</a>
+      <a href="#">Kontakt</a>
+    </nav>
+
+    <button
+      class="menu-toggle"
+      id="menuToggle"
+      type="button"
+      aria-label="Menü öffnen"
+      aria-expanded="false"
+      aria-controls="mobileMenu"
+    >
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </div>
+
+  <nav class="mobile-nav" id="mobileMenu" aria-label="Mobile Navigation">
+    <a href="#">Überwachung</a>
+    <a href="#">Brandfrüherkennung</a>
+    <a href="#">Über uns</a>
+    <a href="#">Kontakt</a>
+  </nav>
+</header>
+
+<!-- ============================================================
+     SOLAR HERO SECTION
+     Unsplash placeholder images used – replace with real assets.
+     ============================================================ -->
+<section class="solar-hero">
+
+  <!-- ── LEFT COLUMN ── -->
+  <div class="solar-hero__left">
+
+    <!-- Pill badge -->
+    <div class="solar-hero__badge">
+      VIDEO GUARD <strong>SOLAR</strong>
+    </div>
+
+    <!-- Title -->
+    <h1 class="solar-hero__title">
+      Die Lösung für eine zuverlässige Überwachung an Orten
+      <strong>ohne Zugang zu Stromnetzen.</strong>
+    </h1>
+
+    <!-- CTA button -->
+    <a href="#" class="solar-hero__btn btn btn-primary">
+      <span class="solar-hero__btn-full">Kostenloses Angebot anfragen</span>
+      <span class="solar-hero__btn-short">Angebot anfragen</span>
+    </a>
+
+    <!-- Divider + stats (desktop only) -->
+    <div class="solar-hero__divider"></div>
+
+    <div class="solar-hero__stats">
+      <div class="solar-hero__stat">
+        <div class="solar-hero__stat-number counter" data-target="275301">0</div>
+        <div class="solar-hero__stat-label">Gefahren abgewendet</div>
+      </div>
+      <div class="solar-hero__stat">
+        <div class="solar-hero__stat-number counter" data-target="8217">0</div>
+        <div class="solar-hero__stat-label">Geschützte Baustellen</div>
+      </div>
+      <div class="solar-hero__stat">
+        <div class="solar-hero__stat-number counter" data-target="2226">0</div>
+        <div class="solar-hero__stat-label">Zufriedene Kunden</div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- ── RIGHT COLUMN (carousel) ── -->
+  <div class="solar-hero__carousel-outer">
+    <div class="solar-hero__carousel-track" id="solarTrack">
+
+      <div class="solar-hero__slide">
+        <img
+          src="https://images.unsplash.com/photo-1509391366360-2e959784a276?w=900&q=80"
+          alt="Solar-Überwachung – 275.301 Gefahren abgewendet"
+          loading="eager"
+        >
+        <div class="solar-hero__slide-overlay"></div>
+        <div class="solar-hero__slide-label">
+          <span class="solar-hero__slide-number">275.301</span>
+          <span class="solar-hero__slide-sublabel">Gefahren abgewendet</span>
+        </div>
+      </div>
+
+      <div class="solar-hero__slide">
+        <img
+          src="https://images.unsplash.com/photo-1466611653911-95081537e5b7?w=900&q=80"
+          alt="Solar-Überwachung – 8.217 Geschützte Baustellen"
+          loading="lazy"
+        >
+        <div class="solar-hero__slide-overlay"></div>
+        <div class="solar-hero__slide-label">
+          <span class="solar-hero__slide-number">8.217</span>
+          <span class="solar-hero__slide-sublabel">Geschützte Baustellen</span>
+        </div>
+      </div>
+
+      <div class="solar-hero__slide">
+        <img
+          src="https://images.unsplash.com/photo-1497435334941-8c899a9bd6b3?w=900&q=80"
+          alt="Solar-Überwachung – 2.226 Zufriedene Kunden"
+          loading="lazy"
+        >
+        <div class="solar-hero__slide-overlay"></div>
+        <div class="solar-hero__slide-label">
+          <span class="solar-hero__slide-number">2.226</span>
+          <span class="solar-hero__slide-sublabel">Zufriedene Kunden</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</section>
+
+<section class="project-size">
+  <div class="project-size__inner">
+    <div class="project-size__grid">
+
+      <!-- Left column: copy + CTA -->
+      <div class="project-size__copy">
+        <h2 class="project-size__heading">
+          Wir übernehmen Verantwortung für die Sicherheit Ihrer Baustelle
+        </h2>
+        <p class="project-size__text">
+          Diebstahl, Vandalismus verursachen Bauverzögerungen und damit hohe Kosten.
+          Mit VIDEO GUARD schützen Sie Ihre Baustelle aktiv vor unbefugtem Zutritt.
+          Unsere KRITIS-konforme Technik mit intelligenter Videoanalyse arbeitet nahtlos
+          mit unserer hauseigenen Alarmzentrale zusammen.<br><br>
+          <strong>So werden Vorfälle frühzeitig erkannt, dokumentiert und in Echtzeit bearbeitet.</strong>
+        </p>
+        <a href="#" class="project-size__cta">Jetzt Objekt Schützen</a>
+      </div>
+
+      <!-- Right column: interactive form card -->
+      <div class="project-size__card">
+        <!-- Yellow accent bar at top -->
+        <div class="project-size__card-bar"></div>
+
+        <h3 class="project-size__card-heading">Wie groß ist Ihr Projekt?</h3>
+
+        <div class="project-size__options" id="projectSizeOptions">
+          <button class="project-size__option" data-size="Unter 500 m²">Unter 500 m²</button>
+          <button class="project-size__option" data-size="Unter 5.000 m²">Unter 5.000 m²</button>
+          <button class="project-size__option" data-size="Unter 20.000 m²">Unter 20.000 m²</button>
+          <button class="project-size__option project-size__option--selected" data-size="Über 20.000 m²">Über 20.000 m²</button>
+        </div>
+
+        <button class="project-size__submit" id="projectSizeSubmit">Weiter</button>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+  <!-- ============================================================
+     RISKS SLIDER SECTION
+     Images needed (place in ./assets/images/Images/):
+       - Live_Uberwachung_VG.png
+       - Datenschutz_VG.png
+       - Made_Germany_VG.png
+     Icons needed (place in ./assets/images/icons/):
+       - New_icon_1.png
+       - New_icon_2.png
+       - New_icon_3.png
+     ============================================================ -->
+<section class="risks-slider">
+
+  <!-- Header -->
+  <div class="risks-slider__header">
+    <div class="risks-slider__title-wrap">
+      <div class="risks-slider__accent-bar"></div>
+      <h2 class="risks-slider__title">Schützen Sie Ihre Baustelle vor erheblichen Risiken</h2>
+    </div>
+    <p class="risks-slider__subtitle">
+      Wir haben über 19 Jahre Erfahrung im Schutz von Baustellen. Unsere Sicherheitslösungen sind
+      speziell für die Bauindustrie entwickelt, um Ihr Projekt in jeder Situation zu schützen.
+    </p>
+    <div class="risks-slider__nav">
+      <button class="risks-slider__arrow" id="risksPrev" disabled aria-label="Zurück">
+        <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7"/>
+        </svg>
+      </button>
+      <button class="risks-slider__arrow" id="risksNext" aria-label="Weiter">
+        <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/>
+        </svg>
+      </button>
+    </div>
+  </div>
+
+  <!-- Desktop Slider -->
+  <div class="risks-slider__slider-wrap">
+  <div class="risks-slider__track-wrap" id="risksTrackWrap">
+    <div class="risks-slider__track" id="risksTrack">
+
+      <div class="risks-slider__slide">
+        <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080" alt="Datenschutz" loading="lazy">
+        <div class="risks-slider__overlay"></div>
+        <div class="risks-slider__corner-arrow">
+          <svg width="36" height="36" viewBox="0 0 36 36" fill="none">
+            <path d="M6 30L30 6M30 6H10M30 6V26" stroke="#F2E519" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+        <div class="risks-slider__caption">
+          <h3>Datenschutz</h3>
+          <p>Unsere Technik ist DSGVO-konform ausgelegt und berücksichtigt hohe Anforderungen an Datenschutz und IT-Sicherheit.</p>
+        </div>
+      </div>
+
+      <div class="risks-slider__slide">
+        <img src="./assets/images/Images/Made_Germany_VG.png" alt="Alles aus einer Hand" loading="lazy">
+        <div class="risks-slider__overlay"></div>
+        <div class="risks-slider__corner-arrow">
+          <svg width="36" height="36" viewBox="0 0 36 36" fill="none">
+            <path d="M6 30L30 6M30 6H10M30 6V26" stroke="#F2E519" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+        <div class="risks-slider__caption">
+          <h3>Alles aus einer Hand</h3>
+          <p>Bei VIDEO GUARD haben Sie einen festen Ansprechpartner durch den gesamten Prozess – von der Vor-Ort-Analyse über Planung, Installation und Wartung bis zur Abholung am Projektende.</p>
+        </div>
+      </div>
+
+      <div class="risks-slider__slide">
+        <img src="./assets/images/Images/Datenschutz_VG.png" alt="Flexibel und resilient" loading="lazy">
+        <div class="risks-slider__overlay"></div>
+        <div class="risks-slider__corner-arrow">
+          <svg width="36" height="36" viewBox="0 0 36 36" fill="none">
+            <path d="M6 30L30 6M30 6H10M30 6V26" stroke="#F2E519" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+        <div class="risks-slider__caption">
+          <h3>Flexibel und resilient</h3>
+          <p>Unsere mobilen Kameratürme sind inhouse entwickelt und auf harte Praxiseinsätze ausgelegt. Sie funktionieren bei extremem Wetter, halten Stromausfälle, Sabotage und wechselnde Standorte aus.</p>
+        </div>
+      </div>
+
+      <div class="risks-slider__slide">
+        <img src="./assets/images/Images/Live_Uberwachung_VG.png" alt="Zuverlässige Nachtdetektion" loading="lazy">
+        <div class="risks-slider__overlay"></div>
+        <div class="risks-slider__corner-arrow">
+          <svg width="36" height="36" viewBox="0 0 36 36" fill="none">
+            <path d="M6 30L30 6M30 6H10M30 6V26" stroke="#F2E519" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+        <div class="risks-slider__caption">
+          <h3>Zuverlässige Nachtdetektion</h3>
+          <p>Leistungsstarke Kameras kombiniert mit Infrarottechnik und KI-gestützter Videoanalyse erkennen unbefugte Bewegungen zuverlässig auch bei schlechter Sicht, Regen oder Dunkelheit.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  </div>
+
+  <!-- Mobile Slides (stacked) -->
+  <div class="risks-slider__mobile-stack">
+    <div class="risks-slider__mobile-slide">
+      <img src="./assets/images/Images/Live_Uberwachung_VG.png" alt="Zuverlässige Nachtdetektion" loading="lazy">
+      <div class="risks-slider__overlay"></div>
+      <div class="risks-slider__corner-arrow"><svg width="36" height="36" viewBox="0 0 36 36" fill="none"><path d="M6 30L30 6M30 6H10M30 6V26" stroke="#F2E519" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+      <div class="risks-slider__caption">
+        <h3>Zuverlässige Nachtdetektion</h3>
+        <p>Leistungsstarke Kameras kombiniert mit Infrarottechnik und KI-gestützter Videoanalyse erkennen unbefugte Bewegungen zuverlässig auch bei schlechter Sicht, Regen oder Dunkelheit.</p>
+      </div>
+    </div>
+    <div class="risks-slider__mobile-slide">
+      <img src="./assets/images/Images/Datenschutz_VG.png" alt="Flexibel und resilient" loading="lazy">
+      <div class="risks-slider__overlay"></div>
+      <div class="risks-slider__corner-arrow"><svg width="36" height="36" viewBox="0 0 36 36" fill="none"><path d="M6 30L30 6M30 6H10M30 6V26" stroke="#F2E519" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+      <div class="risks-slider__caption">
+        <h3>Flexibel und resilient</h3>
+        <p>Unsere mobilen Kameratürme sind inhouse entwickelt und auf harte Praxiseinsätze ausgelegt.</p>
+      </div>
+    </div>
+    <div class="risks-slider__mobile-slide">
+      <img src="./assets/images/Images/Made_Germany_VG.png" alt="Alles aus einer Hand" loading="lazy">
+      <div class="risks-slider__overlay"></div>
+      <div class="risks-slider__corner-arrow"><svg width="36" height="36" viewBox="0 0 36 36" fill="none"><path d="M6 30L30 6M30 6H10M30 6V26" stroke="#F2E519" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+      <div class="risks-slider__caption">
+        <h3>Alles aus einer Hand</h3>
+        <p>Bei VIDEO GUARD haben Sie einen festen Ansprechpartner durch den gesamten Prozess.</p>
+      </div>
+    </div>
+    <div class="risks-slider__mobile-slide">
+      <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080" alt="Datenschutz" loading="lazy">
+      <div class="risks-slider__overlay"></div>
+      <div class="risks-slider__corner-arrow"><svg width="36" height="36" viewBox="0 0 36 36" fill="none"><path d="M6 30L30 6M30 6H10M30 6V26" stroke="#F2E519" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+      <div class="risks-slider__caption">
+        <h3>Datenschutz</h3>
+        <p>Unsere Technik ist DSGVO-konform ausgelegt und berücksichtigt hohe Anforderungen an Datenschutz und IT-Sicherheit.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bottom: label + icons + CTA -->
+  <div class="risks-slider__bottom">
+    <p class="risks-slider__bottom-label">Video Guard schützt Ihre Baustelle vor:</p>
+
+    <!-- Desktop icons -->
+    <div class="risks-slider__icons risks-slider__icons--desktop">
+      <div class="risks-slider__icon-item">
+        <img src="./assets/images/icons/New_icon_1.png" alt="" width="56" height="56">
+        <h3>Diebstahl &amp; Sabotage</h3>
+        <p>Baumaschinen, Kupferkabel, Werkzeuge und Material werden gezielt gestohlen. Allein der Metalldiebstahl auf deutschen Baustellen verursacht jährlich Schäden im zweistelligen Millionenbereich.</p>
+      </div>
+      <div class="risks-slider__icon-item">
+        <img src="./assets/images/icons/New_icon_2.png" alt="" width="56" height="56">
+        <h3>Projektverzögerung &amp; Baustopps</h3>
+        <p>Wenn Material fehlt oder Maschinen beschädigt sind, steht die Baustelle still. Ersatz beschaffen, die Polizei einbinden und die Versicherung informieren. Jeder Tag Verzögerung kostet dabei bares Geld.</p>
+      </div>
+      <div class="risks-slider__icon-item">
+        <img src="./assets/images/icons/New_icon_3.png" alt="" width="56" height="56">
+        <h3>Versicherungsstreit &amp; Kostenexplosion</h3>
+        <p>Ohne professionelles Sicherheitskonzept verweigern viele Versicherer die Schadensregulierung wegen Eigenverschulden. Sie bleiben auf den Kosten sitzen und Ihre Prämien steigen.</p>
+      </div>
+    </div>
+
+    <!-- Mobile icons -->
+    <div class="risks-slider__icons risks-slider__icons--mobile">
+      <div class="risks-slider__icon-item risks-slider__icon-item--mobile">
+        <img src="./assets/images/icons/New_icon_1.png" alt="" width="48" height="48">
+        <div>
+          <h3>Diebstahl &amp; Sabotage</h3>
+          <p>Baumaschinen, Kupferkabel, Werkzeuge und Material werden gezielt gestohlen. Allein der Metalldiebstahl auf deutschen Baustellen verursacht jährlich Schäden im zweistelligen Millionenbereich.</p>
+        </div>
+      </div>
+      <div class="risks-slider__icon-item risks-slider__icon-item--mobile">
+        <img src="./assets/images/icons/New_icon_2.png" alt="" width="48" height="48">
+        <div>
+          <h3>Projektverzögerung &amp; Baustopps</h3>
+          <p>Wenn Material fehlt oder Maschinen beschädigt sind, steht die Baustelle still. Jeder Tag Verzögerung kostet dabei bares Geld.</p>
+        </div>
+      </div>
+      <div class="risks-slider__icon-item risks-slider__icon-item--mobile">
+        <img src="./assets/images/icons/New_icon_3.png" alt="" width="48" height="48">
+        <div>
+          <h3>Versicherungsstreit &amp; Kostenexplosion</h3>
+          <p>Ohne professionelles Sicherheitskonzept verweigern viele Versicherer die Schadensregulierung. Sie bleiben auf den Kosten sitzen und Ihre Prämien steigen.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="risks-slider__cta-row">
+      <button class="risks-slider__btn risks-slider__btn--primary" onclick="document.querySelector('[data-section=&quot;angebot-erhalten&quot;]')?.scrollIntoView({behavior:'smooth',block:'start'})">
+        Jetzt Objekt Schützen
+      </button>
+      <button class="risks-slider__btn risks-slider__btn--secondary">Mehr erfahren</button>
+    </div>
+  </div>
+
+</section>
+
+  <!-- ============================================================
+     HOW IT WORKS CARDS SECTION
+     Files needed:
+       - ./assets/images/icons/VG_EYE_ICON.png
+       - ./assets/videos/In_Aktion_ansehen_3.mp4
+     ============================================================ -->
+<section class="how-it-works">
+  <div class="how-it-works__inner">
+
+    <!-- Title + description -->
+    <div class="how-it-works__header">
+      <div class="how-it-works__title-wrap">
+        <div class="how-it-works__accent-bar"></div>
+        <h2 class="how-it-works__title">So funktioniert unsere mobile Videoüberwachung</h2>
+      </div>
+      <p class="how-it-works__subtitle">
+        Unser bewährter 3-Schritte-Prozess zeigt, wie mobile Baustellenüberwachung in der Praxis
+        funktioniert: modernste Kameratechnik kombiniert mit professioneller Live-Überwachung. Vom
+        Erkennen einer Bedrohung bis zur Intervention durch Einsatzkräfte vergehen
+        <strong>in der Regel weniger als 60 Sekunden.</strong>
+      </p>
+    </div>
+
+    <!-- Full-width video -->
+    <div class="how-it-works__video-wrap">
+      <video
+        class="how-it-works__video"
+        src="./assets/videos/In_Aktion_ansehen_3.mp4"
+        autoplay
+        loop
+        muted
+        playsinline
+      ></video>
+    </div>
+
+    <!-- Desktop: 3 columns -->
+    <div class="how-it-works__cards how-it-works__cards--desktop">
+      <div class="how-it-works__card">
+        <img src="./assets/images/icons/VG_EYE_ICON.png" alt="VIDEO GUARD" width="56" height="56">
+        <h3>Detektieren</h3>
+        <p>Hochauflösende Kameras mit Bosch- und Avigilon-Edge-Technologie überwachen Ihre Baustelle rund um die Uhr. Unsere KI-Videoanalytik unterscheidet zuverlässig zwischen tatsächlichen Bedrohungen und harmlosen Bewegungen wie Tieren oder Wind.</p>
+      </div>
+      <div class="how-it-works__card">
+        <img src="./assets/images/icons/VG_EYE_ICON.png" alt="VIDEO GUARD" width="56" height="56">
+        <h3>Reagieren</h3>
+        <p>In unserer 24/7-Leitstelle in Deutschland bewerten geschulte Mitarbeiter die Situation in Echtzeit. Bei einem Vorfall sprechen sie Eindringlinge gezielt über den Lautsprecher am Kameraturm mit bis zu 120 Dezibel an.</p>
+      </div>
+      <div class="how-it-works__card">
+        <img src="./assets/images/icons/VG_EYE_ICON.png" alt="VIDEO GUARD" width="56" height="56">
+        <h3>Intervenieren</h3>
+        <p>Bleibt die Ansprache wirkungslos, alarmieren wir auf Wunsch direkt Polizei oder Wachdienst. Live-Bilder werden in Echtzeit weitergegeben, sodass die Einsatzkräfte vorbereitet eintreffen.</p>
+      </div>
+    </div>
+
+    <!-- Mobile: vertical stack -->
+    <div class="how-it-works__cards how-it-works__cards--mobile">
+      <div class="how-it-works__card how-it-works__card--mobile">
+        <img src="./assets/images/icons/VG_EYE_ICON.png" alt="VIDEO GUARD" width="48" height="48">
+        <div>
+          <h3>Detektieren</h3>
+          <p>Hochauflösende Kameras mit Bosch- und Avigilon-Edge-Technologie überwachen Ihre Baustelle rund um die Uhr. Unsere KI-Videoanalytik unterscheidet zuverlässig zwischen tatsächlichen Bedrohungen und harmlosen Bewegungen wie Tieren oder Wind.</p>
+        </div>
+      </div>
+      <div class="how-it-works__card how-it-works__card--mobile">
+        <img src="./assets/images/icons/VG_EYE_ICON.png" alt="VIDEO GUARD" width="48" height="48">
+        <div>
+          <h3>Reagieren</h3>
+          <p>In unserer 24/7-Leitstelle in Deutschland bewerten geschulte Mitarbeiter die Situation in Echtzeit. Bei einem Vorfall sprechen sie Eindringlinge gezielt über den Lautsprecher am Kameraturm mit bis zu 120 Dezibel an.</p>
+        </div>
+      </div>
+      <div class="how-it-works__card how-it-works__card--mobile">
+        <img src="./assets/images/icons/VG_EYE_ICON.png" alt="VIDEO GUARD" width="48" height="48">
+        <div>
+          <h3>Intervenieren</h3>
+          <p>Bleibt die Ansprache wirkungslos, alarmieren wir auf Wunsch direkt Polizei oder Wachdienst. Live-Bilder werden in Echtzeit weitergegeben, sodass die Einsatzkräfte vorbereitet eintreffen.</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+  <!-- ============================================================
+     TESTIMONIALS CAROUSEL SECTION
+     Files needed:
+       - ./assets/images/Images/Testimonial_1.png
+       - ./assets/images/Images/Testimonial_2.png
+       - ./assets/images/Images/Testimonial_3.png
+       - ./assets/images/Images/Testimonial_4.png
+       - ./assets/images/logos/Client_Logo_1.png  (ZÜBLIN)
+       - ./assets/images/logos/Client_Logo_2.png  (Deutsche Bahn)
+       - ./assets/images/logos/Client_Logo_3.png  (mainova)
+       - ./assets/images/logos/Client_Logo_4.png  (Vestas)
+       - ./assets/images/logos/Client_Logo_5.png  (STRABAG)
+       - ./assets/images/logos/Client_Logo_6.png  (GE)
+     ============================================================ -->
+<section class="testimonials">
+  <div class="testimonials__inner">
+
+    <!-- Title -->
+    <div class="testimonials__title-wrap">
+      <div class="testimonials__accent-bar"></div>
+      <h2 class="testimonials__title">Zufriedene Video Guard Kunden</h2>
+    </div>
+
+    <!-- Two-column: testimonials left, logo wheel right -->
+    <div class="testimonials__grid">
+
+      <!-- Left: rotating testimonial cards -->
+      <div class="testimonials__cards-col">
+        <div class="testimonials__cards-stage" id="testimonialsStage">
+
+          <div class="testimonials__card active">
+            <div class="testimonials__card-bar"></div>
+            <div class="testimonials__card-logo">
+              <img src="./assets/images/Images/Testimonial_1.png" alt="Company logo">
+            </div>
+            <p class="testimonials__card-text">"Durch die Zusammenarbeit mit Videoguard24 konnte dieser Partner gefunden werden und erfüllt unsere Erwartungshaltung in allen Blickwinkeln."</p>
+            <div class="testimonials__card-author">
+              <p class="testimonials__author-name">Alexander L. Tillmann</p>
+              <p class="testimonials__author-company">Unternehmens-sicherheitsmanager - Mainova AG</p>
+            </div>
+          </div>
+
+          <div class="testimonials__card">
+            <div class="testimonials__card-bar"></div>
+            <div class="testimonials__card-logo">
+              <img src="./assets/images/Images/Testimonial_2.png" alt="Company logo">
+            </div>
+            <p class="testimonials__card-text">"Wir empfehlen VIDEO GUARD wegen der außergewöhnlich hohen Kommunikationsbereitschaft und dem zuverlässigen Arbeitsverhältnis auch bei Problemen!"</p>
+            <div class="testimonials__card-author">
+              <p class="testimonials__author-name">Marco Burghardt</p>
+              <p class="testimonials__author-company">Bau- und Projektmanagement Bonn</p>
+            </div>
+          </div>
+
+          <div class="testimonials__card">
+            <div class="testimonials__card-bar"></div>
+            <div class="testimonials__card-logo">
+              <img src="./assets/images/Images/Testimonial_3.png" alt="Company logo">
+            </div>
+            <p class="testimonials__card-text">"VIDEO GUARD bietet für uns das sicherste Gesamtkonzept im Zusammenspiel zwischen hervorragender Technik, Selbstüberwachung und professionellem Personal in der Leitstelle"</p>
+            <div class="testimonials__card-author">
+              <p class="testimonials__author-name">Nils Netzer</p>
+              <p class="testimonials__author-company">E-Shelter</p>
+            </div>
+          </div>
+
+          <div class="testimonials__card">
+            <div class="testimonials__card-bar"></div>
+            <div class="testimonials__card-logo">
+              <img src="./assets/images/Images/Testimonial_4.png" alt="Company logo">
+            </div>
+            <p class="testimonials__card-text">"Ich möchte VIDEO GUARD in Zukunft am liebsten auf jeder Baustelle dabeihaben."</p>
+            <div class="testimonials__card-author">
+              <p class="testimonials__author-name">Jörg Fritz</p>
+              <p class="testimonials__author-company">MBN Bau GmbH</p>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Dots -->
+        <div class="testimonials__dots" id="testimonialsDots">
+          <button class="testimonials__dot active" data-index="0" aria-label="Testimonial 1"></button>
+          <button class="testimonials__dot" data-index="1" aria-label="Testimonial 2"></button>
+          <button class="testimonials__dot" data-index="2" aria-label="Testimonial 3"></button>
+          <button class="testimonials__dot" data-index="3" aria-label="Testimonial 4"></button>
+        </div>
+      </div>
+
+      <!-- Right: scrolling logo wheel -->
+      <div class="testimonials__logos-col">
+        <div class="testimonials__logos-fade testimonials__logos-fade--left"></div>
+        <div class="testimonials__logos-fade testimonials__logos-fade--right"></div>
+        <div class="testimonials__logos-track">
+          <!-- First set -->
+          <div class="testimonials__logo-item"><img src="./assets/images/logos/Client_Logo_1.png" alt="ZÜBLIN" height="50"></div>
+          <div class="testimonials__logo-item"><img src="./assets/images/logos/Client_Logo_2.png" alt="Deutsche Bahn" height="50"></div>
+          <div class="testimonials__logo-item"><img src="./assets/images/logos/Client_Logo_3.png" alt="mainova" height="50"></div>
+          <div class="testimonials__logo-item"><img src="./assets/images/logos/Client_Logo_4.png" alt="Vestas" height="50"></div>
+          <div class="testimonials__logo-item"><img src="./assets/images/logos/Client_Logo_5.png" alt="STRABAG" height="50"></div>
+          <div class="testimonials__logo-item"><img src="./assets/images/logos/Client_Logo_6.png" alt="GE" height="50"></div>
+          <!-- Duplicate for seamless loop -->
+          <div class="testimonials__logo-item"><img src="./assets/images/logos/Client_Logo_1.png" alt="ZÜBLIN" height="50"></div>
+          <div class="testimonials__logo-item"><img src="./assets/images/logos/Client_Logo_2.png" alt="Deutsche Bahn" height="50"></div>
+          <div class="testimonials__logo-item"><img src="./assets/images/logos/Client_Logo_3.png" alt="mainova" height="50"></div>
+          <div class="testimonials__logo-item"><img src="./assets/images/logos/Client_Logo_4.png" alt="Vestas" height="50"></div>
+          <div class="testimonials__logo-item"><img src="./assets/images/logos/Client_Logo_5.png" alt="STRABAG" height="50"></div>
+          <div class="testimonials__logo-item"><img src="./assets/images/logos/Client_Logo_6.png" alt="GE" height="50"></div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Mobile logo wheel (below cards) -->
+    <div class="testimonials__logos-mobile">
+      <div class="testimonials__logos-fade testimonials__logos-fade--left"></div>
+      <div class="testimonials__logos-fade testimonials__logos-fade--right"></div>
+      <div class="testimonials__logos-track testimonials__logos-track--mobile">
+        <div class="testimonials__logo-item"><img src="./assets/images/logos/Client_Logo_1.png" alt="ZÜBLIN" height="28"></div>
+        <div class="testimonials__logo-item"><img src="./assets/images/logos/Client_Logo_2.png" alt="Deutsche Bahn" height="28"></div>
+        <div class="testimonials__logo-item"><img src="./assets/images/logos/Client_Logo_3.png" alt="mainova" height="28"></div>
+        <div class="testimonials__logo-item"><img src="./assets/images/logos/Client_Logo_4.png" alt="Vestas" height="28"></div>
+        <div class="testimonials__logo-item"><img src="./assets/images/logos/Client_Logo_5.png" alt="STRABAG" height="28"></div>
+        <div class="testimonials__logo-item"><img src="./assets/images/logos/Client_Logo_6.png" alt="GE" height="28"></div>
+        <div class="testimonials__logo-item"><img src="./assets/images/logos/Client_Logo_1.png" alt="ZÜBLIN" height="28"></div>
+        <div class="testimonials__logo-item"><img src="./assets/images/logos/Client_Logo_2.png" alt="Deutsche Bahn" height="28"></div>
+        <div class="testimonials__logo-item"><img src="./assets/images/logos/Client_Logo_3.png" alt="mainova" height="28"></div>
+        <div class="testimonials__logo-item"><img src="./assets/images/logos/Client_Logo_4.png" alt="Vestas" height="28"></div>
+        <div class="testimonials__logo-item"><img src="./assets/images/logos/Client_Logo_5.png" alt="STRABAG" height="28"></div>
+        <div class="testimonials__logo-item"><img src="./assets/images/logos/Client_Logo_6.png" alt="GE" height="28"></div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+  <!-- ============================================================
+     PROZESS CAROUSEL SECTION
+     Files needed (./assets/images/Images/):
+       - Prozess_1.png  (Angebotsanfrage)
+       - Prozess_2.png  (Planung)
+       - Prozess_3.png  (Vertrag & Lieferung)
+       - Prozess_4.png  (Überwachung)
+       - 5._Alarme.png
+       - 6._Wartung.png
+     ============================================================ -->
+<section class="prozess" data-section="prozess">
+  <div class="prozess__inner">
+
+    <!-- DESKTOP: 2-column layout -->
+    <div class="prozess__desktop">
+
+      <!-- Left: title, description, CTAs, nav arrows -->
+      <div class="prozess__left">
+        <div class="prozess__title-wrap">
+          <div class="prozess__accent-bar"></div>
+          <h2 class="prozess__title">Ihr Weg zur sicheren Baustelle – in 6 Schritten</h2>
+        </div>
+        <p class="prozess__subtitle">
+          Von der ersten Anfrage bis zur Installation – wir begleiten Sie Schritt für Schritt.
+          <strong>Persönlich, transparent und ohne Umwege.</strong>
+        </p>
+        <div class="prozess__cta-row">
+          <button class="prozess__btn prozess__btn--primary" onclick="document.querySelector('[data-section=&quot;angebot-erhalten&quot;]')?.scrollIntoView({behavior:'smooth',block:'start'})">
+            Jetzt Objekt Schützen
+          </button>
+          <button class="prozess__btn prozess__btn--secondary">Mehr erfahren</button>
+        </div>
+        <div class="prozess__nav">
+          <button class="prozess__arrow" id="prozessPrev" disabled aria-label="Zurück">
+            <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7"/>
+            </svg>
+          </button>
+          <button class="prozess__arrow" id="prozessNext" aria-label="Weiter">
+            <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/>
+            </svg>
+          </button>
+        </div>
+      </div>
+
+      <!-- Right: carousel -->
+      <div class="prozess__carousel-outer">
+        <div class="prozess__carousel-track" id="prozessTrack">
+
+          <div class="prozess__card">
+            <div class="prozess__card-img">
+              <img src="./assets/images/Images/Prozess_1.png" alt="Angebotsanfrage" loading="lazy">
+              <div class="prozess__card-img-gradient"></div>
+            </div>
+            <div class="prozess__card-body">
+              <div class="prozess__card-number">01</div>
+              <h3 class="prozess__card-title">Angebotsanfrage</h3>
+              <p class="prozess__card-desc">Sie senden uns eine Nachricht mit Ihren Kontaktdaten und einer kurzen Projektbeschreibung. Innerhalb von 60 Minuten erhalten Sie eine erste Rückmeldung.</p>
+            </div>
+          </div>
+
+          <div class="prozess__card">
+            <div class="prozess__card-img">
+              <img src="./assets/images/Images/Prozess_2.png" alt="Planung" loading="lazy">
+              <div class="prozess__card-img-gradient"></div>
+            </div>
+            <div class="prozess__card-body">
+              <div class="prozess__card-number">02</div>
+              <h3 class="prozess__card-title">Planung</h3>
+              <p class="prozess__card-desc">Ihr zuständiger Vertriebsmitarbeiter plant gemeinsam mit Ihnen das individuelle Sicherheitskonzept und erstellt ein optimales Kameralayout.</p>
+            </div>
+          </div>
+
+          <div class="prozess__card">
+            <div class="prozess__card-img">
+              <img src="./assets/images/Images/Prozess_3.png" alt="Vertrag & Lieferung" loading="lazy">
+              <div class="prozess__card-img-gradient"></div>
+            </div>
+            <div class="prozess__card-body">
+              <div class="prozess__card-number">03</div>
+              <h3 class="prozess__card-title">Vertrag &amp; Lieferung</h3>
+              <p class="prozess__card-desc">Nach Freigabe des finalen Angebots übernehmen wir Lieferung und Installation über unsere Logistik, damit Ihre Arbeit unterbrechungsfrei weiterläuft.</p>
+            </div>
+          </div>
+
+          <div class="prozess__card">
+            <div class="prozess__card-img">
+              <img src="./assets/images/Images/Prozess_4.png" alt="Überwachung" loading="lazy">
+              <div class="prozess__card-img-gradient"></div>
+            </div>
+            <div class="prozess__card-body">
+              <div class="prozess__card-number">04</div>
+              <h3 class="prozess__card-title">Überwachung</h3>
+              <p class="prozess__card-desc">Wir haben alles für Sie im Blick. Über unsere App können Sie optional jederzeit per LiveView selbst einen Blick auf Ihre Baustelle werfen.</p>
+            </div>
+          </div>
+
+          <div class="prozess__card">
+            <div class="prozess__card-img">
+              <img src="./assets/images/Images/5._Alarme.png" alt="Alarme" loading="lazy">
+              <div class="prozess__card-img-gradient"></div>
+            </div>
+            <div class="prozess__card-body">
+              <div class="prozess__card-number">05</div>
+              <h3 class="prozess__card-title">Alarme</h3>
+              <p class="prozess__card-desc">Unsere KI-gestützte Kameratechnik von Bosch und Avigilon erkennt Vorfälle präzise, während unsere Leitstelle alle Alarme zuverlässig bearbeitet.</p>
+            </div>
+          </div>
+
+          <div class="prozess__card">
+            <div class="prozess__card-img">
+              <img src="./assets/images/Images/6._Wartung.png" alt="Wartung" loading="lazy">
+              <div class="prozess__card-img-gradient"></div>
+            </div>
+            <div class="prozess__card-body">
+              <div class="prozess__card-number">06</div>
+              <h3 class="prozess__card-title">Wartung</h3>
+              <p class="prozess__card-desc">Durch unseren technischen Service, sowohl in der Zentrale als auch vor Ort, und durch smarte Monitoring-Funktionen gewährleisten wir einen nahezu störungsfreien Schutz.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- MOBILE: title + horizontal scroll -->
+    <div class="prozess__mobile">
+      <div class="prozess__title-wrap">
+        <div class="prozess__accent-bar"></div>
+        <h2 class="prozess__title">Ihr Weg zur sicheren Baustelle – in 6 Schritten</h2>
+      </div>
+      <p class="prozess__subtitle">
+        Von der ersten Anfrage bis zur Installation – wir begleiten Sie Schritt für Schritt.
+        <strong>Persönlich, transparent und ohne Umwege.</strong>
+      </p>
+      <div class="prozess__mobile-scroll">
+        <div class="prozess__mobile-track">
+
+          <div class="prozess__card prozess__card--mobile">
+            <div class="prozess__card-img">
+              <img src="./assets/images/Images/Prozess_1.png" alt="Angebotsanfrage" loading="lazy">
+              <div class="prozess__card-img-gradient"></div>
+            </div>
+            <div class="prozess__card-body">
+              <div class="prozess__card-number">01</div>
+              <h3 class="prozess__card-title">Angebotsanfrage</h3>
+              <p class="prozess__card-desc">Sie senden uns eine Nachricht mit Ihren Kontaktdaten und einer kurzen Projektbeschreibung. Innerhalb von 60 Minuten erhalten Sie eine erste Rückmeldung.</p>
+            </div>
+          </div>
+
+          <div class="prozess__card prozess__card--mobile">
+            <div class="prozess__card-img">
+              <img src="./assets/images/Images/Prozess_2.png" alt="Planung" loading="lazy">
+              <div class="prozess__card-img-gradient"></div>
+            </div>
+            <div class="prozess__card-body">
+              <div class="prozess__card-number">02</div>
+              <h3 class="prozess__card-title">Planung</h3>
+              <p class="prozess__card-desc">Ihr zuständiger Vertriebsmitarbeiter plant gemeinsam mit Ihnen das individuelle Sicherheitskonzept und erstellt ein optimales Kameralayout.</p>
+            </div>
+          </div>
+
+          <div class="prozess__card prozess__card--mobile">
+            <div class="prozess__card-img">
+              <img src="./assets/images/Images/Prozess_3.png" alt="Vertrag & Lieferung" loading="lazy">
+              <div class="prozess__card-img-gradient"></div>
+            </div>
+            <div class="prozess__card-body">
+              <div class="prozess__card-number">03</div>
+              <h3 class="prozess__card-title">Vertrag &amp; Lieferung</h3>
+              <p class="prozess__card-desc">Nach Freigabe des finalen Angebots übernehmen wir Lieferung und Installation über unsere Logistik, damit Ihre Arbeit unterbrechungsfrei weiterläuft.</p>
+            </div>
+          </div>
+
+          <div class="prozess__card prozess__card--mobile">
+            <div class="prozess__card-img">
+              <img src="./assets/images/Images/Prozess_4.png" alt="Überwachung" loading="lazy">
+              <div class="prozess__card-img-gradient"></div>
+            </div>
+            <div class="prozess__card-body">
+              <div class="prozess__card-number">04</div>
+              <h3 class="prozess__card-title">Überwachung</h3>
+              <p class="prozess__card-desc">Wir haben alles für Sie im Blick. Über unsere App können Sie optional jederzeit per LiveView selbst einen Blick auf Ihre Baustelle werfen.</p>
+            </div>
+          </div>
+
+          <div class="prozess__card prozess__card--mobile">
+            <div class="prozess__card-img">
+              <img src="./assets/images/Images/5._Alarme.png" alt="Alarme" loading="lazy">
+              <div class="prozess__card-img-gradient"></div>
+            </div>
+            <div class="prozess__card-body">
+              <div class="prozess__card-number">05</div>
+              <h3 class="prozess__card-title">Alarme</h3>
+              <p class="prozess__card-desc">Unsere KI-gestützte Kameratechnik von Bosch und Avigilon erkennt Vorfälle präzise, während unsere Leitstelle alle Alarme zuverlässig bearbeitet.</p>
+            </div>
+          </div>
+
+          <div class="prozess__card prozess__card--mobile">
+            <div class="prozess__card-img">
+              <img src="./assets/images/Images/6._Wartung.png" alt="Wartung" loading="lazy">
+              <div class="prozess__card-img-gradient"></div>
+            </div>
+            <div class="prozess__card-body">
+              <div class="prozess__card-number">06</div>
+              <h3 class="prozess__card-title">Wartung</h3>
+              <p class="prozess__card-desc">Durch unseren technischen Service, sowohl in der Zentrale als auch vor Ort, und durch smarte Monitoring-Funktionen gewährleisten wir einen nahezu störungsfreien Schutz.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+  <!-- ============================================================
+     DATA PROTECTION SECTION
+     Files needed (./assets/images/icons/):
+       - New_icon_4.png  (DSGVO)
+       - New_icon_5.png  (KRITIS)
+       - New_icon_6.png  (Server)
+     ============================================================ -->
+<section class="data-protection">
+  <div class="data-protection__inner">
+
+    <!-- Title + description -->
+    <div class="data-protection__title-wrap">
+      <div class="data-protection__accent-bar"></div>
+      <h2 class="data-protection__title">Mit höchstem Datenschutz und höchster Sicherheit</h2>
+    </div>
+    <p class="data-protection__subtitle">
+      Unsere Technik ist DSGVO-konform ausgelegt und berücksichtigt
+      <strong>hohe Anforderungen an Datenschutz und IT-Sicherheit</strong>.
+      Dazu gehören unter anderem klar sichtbare Hinweise, geschützte Datenverarbeitung
+      und sichere Systemkomponenten.
+    </p>
+
+    <!-- Cards grid -->
+    <div class="data-protection__grid">
+
+      <div class="data-protection__card">
+        <img src="./assets/images/icons/New_icon_4.png" alt="" width="82" height="82" loading="lazy">
+        <h3>DSGVO-konform</h3>
+        <p>Unsere mobilen Systeme verbinden zuverlässige Überwachung mit datenschutzkonformer Verarbeitung sensibler Daten. Von der verschlüsselten Übertragung bis zur kontrollierten Zugriffverwaltung erfüllen unsere Lösungen hohe Anforderungen an Datenschutz und Sicherheit.</p>
+      </div>
+
+      <div class="data-protection__card">
+        <img src="./assets/images/icons/New_icon_5.png" alt="" width="82" height="82" loading="lazy">
+        <h3>KRITIS-konform</h3>
+        <p>Sicherheit dort, wo höchste Anforderungen gelten. Unsere mobilen Videoüberwachungslösungen erfüllen die Anforderungen kritischer Infrastrukturen an Datenschutz, Verfügbarkeit und Ausfallsicherheit.</p>
+      </div>
+
+      <div class="data-protection__card">
+        <img src="./assets/images/icons/New_icon_6.png" alt="" width="82" height="82" loading="lazy">
+        <h3>Serverstandorte in Deutschland</h3>
+        <p>Serverstandorte in Deutschland sowie eine behördlich zertifizierte Bewachungserlaubnis unterstreichen den professionellen Anspruch unserer Sicherheitslösung. Für Sie bedeutet das: rechtliche Sicherheit, maximale Verlässlichkeit und ein durchgängig hohes Schutzniveau.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+  <!-- ============================================================
+     MAX FLEXIBILITAET SECTION
+     Files needed (./assets/images/Images/):
+       - Flexibilitaet_1.png  (500m²)
+       - Flexibilitaet_2.png  (2.000m²)
+       - Flexibilitaet_3.png  (5.000m²)
+     ============================================================ -->
+<section class="flexibilitaet">
+  <div class="flexibilitaet__inner">
+
+    <!-- DESKTOP: 2-column layout -->
+    <div class="flexibilitaet__desktop">
+
+      <!-- Left: text + CTAs + nav -->
+      <div class="flexibilitaet__left">
+        <div class="flexibilitaet__title-wrap">
+          <div class="flexibilitaet__accent-bar"></div>
+          <h2 class="flexibilitaet__title">Maximale Flexibilität – unsere Sicherheit wächst mit Ihrer</h2>
+        </div>
+        <p class="flexibilitaet__text">
+          Bauprojekte sind immer dynamisch. Eine Baustelle, die heute 2.000 Quadratmeter umfasst,
+          kann in drei Monaten doppelt so groß sein. Sie wandert Abschnitt für Abschnitt, neue
+          Bereiche entstehen und andere werden geräumt. Unser Sicherheitssystem passt sich Ihnen an.
+        </p>
+        <p class="flexibilitaet__text">
+          Brauchen Sie zusätzliche Kameratürme? Wir liefern. Soll ein Turm an einen neuen Standort
+          umziehen? Erledigen wir. Verändert sich der Risikobereich Ihres Projekts?
+        </p>
+        <p class="flexibilitaet__text flexibilitaet__text--bold">
+          Wir passen die Überwachungszonen in Echtzeit an, einfach in der App oder direkt mit
+          unserer Alarmzentrale abgestimmt.
+        </p>
+        <div class="flexibilitaet__cta-row">
+          <button class="flexibilitaet__btn flexibilitaet__btn--primary" onclick="document.querySelector('[data-section=&quot;angebot-erhalten&quot;]')?.scrollIntoView({behavior:'smooth',block:'start'})">
+            Jetzt Objekt Schützen
+          </button>
+          <button class="flexibilitaet__btn flexibilitaet__btn--secondary">Mehr erfahren</button>
+        </div>
+        <div class="flexibilitaet__nav">
+          <button class="flexibilitaet__arrow" id="flexPrev" disabled aria-label="Zurück">
+            <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7"/>
+            </svg>
+          </button>
+          <button class="flexibilitaet__arrow" id="flexNext" aria-label="Weiter">
+            <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/>
+            </svg>
+          </button>
+        </div>
+      </div>
+
+      <!-- Right: overflow carousel -->
+      <div class="flexibilitaet__carousel-outer">
+        <div class="flexibilitaet__carousel-track" id="flexTrack">
+
+          <div class="flexibilitaet__slide">
+            <img src="./assets/images/Images/Flexibilitaet_1.png" alt="500m²" loading="lazy">
+            <div class="flexibilitaet__slide-overlay"></div>
+            <div class="flexibilitaet__slide-label">500m²</div>
+          </div>
+
+          <div class="flexibilitaet__slide">
+            <img src="./assets/images/Images/Flexibilitaet_2.png" alt="2.000m²" loading="lazy">
+            <div class="flexibilitaet__slide-overlay"></div>
+            <div class="flexibilitaet__slide-label">2.000m²</div>
+          </div>
+
+          <div class="flexibilitaet__slide">
+            <img src="./assets/images/Images/Flexibilitaet_3.png" alt="5.000m²" loading="lazy">
+            <div class="flexibilitaet__slide-overlay"></div>
+            <div class="flexibilitaet__slide-label">5.000m²</div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- MOBILE: title → images → text → buttons -->
+    <div class="flexibilitaet__mobile">
+      <div class="flexibilitaet__title-wrap">
+        <div class="flexibilitaet__accent-bar"></div>
+        <h2 class="flexibilitaet__title">Maximale Flexibilität – unsere Sicherheit wächst mit Ihrer</h2>
+      </div>
+
+      <!-- Horizontal scrollable images -->
+      <div class="flexibilitaet__mobile-scroll">
+        <div class="flexibilitaet__mobile-track">
+
+          <div class="flexibilitaet__mobile-slide">
+            <img src="./assets/images/Images/Flexibilitaet_1.png" alt="500m²" loading="lazy">
+            <div class="flexibilitaet__slide-overlay"></div>
+            <div class="flexibilitaet__slide-label">500m²</div>
+          </div>
+
+          <div class="flexibilitaet__mobile-slide">
+            <img src="./assets/images/Images/Flexibilitaet_2.png" alt="2.000m²" loading="lazy">
+            <div class="flexibilitaet__slide-overlay"></div>
+            <div class="flexibilitaet__slide-label">2.000m²</div>
+          </div>
+
+          <div class="flexibilitaet__mobile-slide">
+            <img src="./assets/images/Images/Flexibilitaet_3.png" alt="5.000m²" loading="lazy">
+            <div class="flexibilitaet__slide-overlay"></div>
+            <div class="flexibilitaet__slide-label">5.000m²</div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Description text -->
+      <p class="flexibilitaet__text">
+        Bauprojekte sind immer dynamisch. Eine Baustelle, die heute 2.000 Quadratmeter umfasst,
+        kann in drei Monaten doppelt so groß sein. Sie wandert Abschnitt für Abschnitt, neue
+        Bereiche entstehen und andere werden geräumt. Unser Sicherheitssystem passt sich Ihnen an.
+      </p>
+      <p class="flexibilitaet__text">
+        Brauchen Sie zusätzliche Kameratürme? Wir liefern. Soll ein Turm an einen neuen Standort
+        umziehen? Erledigen wir. Verändert sich der Risikobereich Ihres Projekts?
+      </p>
+      <p class="flexibilitaet__text flexibilitaet__text--bold">
+        Wir passen die Überwachungszonen in Echtzeit an, einfach in der App oder direkt mit
+        unserer Alarmzentrale abgestimmt.
+      </p>
+      <div class="flexibilitaet__cta-row">
+        <button class="flexibilitaet__btn flexibilitaet__btn--primary" onclick="document.querySelector('[data-section=&quot;angebot-erhalten&quot;]')?.scrollIntoView({behavior:'smooth',block:'start'})">
+          Jetzt Objekt Schützen
+        </button>
+        <button class="flexibilitaet__btn flexibilitaet__btn--secondary">Mehr erfahren</button>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+  <!-- ============================================================
+     ANGEBOT ERHALTEN SECTION
+     ============================================================ -->
+<section class="angebot" data-section="angebot-erhalten">
+  <div class="angebot__inner">
+    <div class="angebot__title-wrap">
+      <div class="angebot__accent-bar"></div>
+      <h2 class="angebot__title">Angebot Erhalten</h2>
+    </div>
+    <p class="angebot__text">
+      Erfahren Sie, warum unsere Lösungen nachweislich eine höhere Leistung liefern als die der Konkurrenz. Sichern Sie sich jetzt Ihre kostenfreie Beratung und Angebot.
+    </p>
+    <p class="angebot__text">
+      Wir melden uns Mo.–Fr. 8–17 Uhr <strong>innerhalb von 60 Minuten bei Ihnen.</strong>
+    </p>
+  </div>
+</section>
+
+<!-- ============================================================
+     BROCHURE DOWNLOAD SECTION
+     Files needed:
+       - ./assets/images/Images/video-guard-Videotuerme_Ablauf.png
+     ============================================================ -->
+<section class="brochure">
+  <div class="brochure__inner">
+    <div class="brochure__grid">
+
+      <!-- Left: title, description, download button -->
+      <div class="brochure__left">
+        <div class="brochure__title-wrap">
+          <div class="brochure__accent-bar"></div>
+          <h2 class="brochure__title">Mit VIDEO GUARD sicher starten</h2>
+        </div>
+        <p class="brochure__text">
+          Erfahren Sie in unserem kostenlosen Leitfaden, worauf es bei der Baustellensicherung mit mobilen Kameratürmen wirklich ankommt: rechtliche Anforderungen, technische Mindeststandards, typische Fallstricke und wie Sie das passende System für Ihr Projekt finden. Praxiswissen aus über 19 Jahren Erfahrung – auf den Punkt gebracht.
+        </p>
+        <button class="brochure__download-btn">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+            <polyline points="7 10 12 15 17 10"/>
+            <line x1="12" y1="15" x2="12" y2="3"/>
+          </svg>
+          Jetzt Leitfaden herunterladen
+        </button>
+      </div>
+
+      <!-- Right: video with thumbnail + play button -->
+      <div class="brochure__video-wrap">
+        <div class="brochure__video-container" id="brochureVideoContainer">
+          <!-- Thumbnail + play button (shown by default) -->
+          <button class="brochure__video-thumb" id="brochurePlayBtn" aria-label="Video abspielen">
+            <img src="./assets/images/Images/video-guard-Videotuerme_Ablauf.png" alt="VIDEO GUARD Video Thumbnail">
+            <div class="brochure__video-gradient"></div>
+            <div class="brochure__play-icon">
+              <svg width="64" height="64" viewBox="0 0 24 24" fill="white">
+                <path d="M8 5v14l11-7z"/>
+              </svg>
+            </div>
+          </button>
+          <!-- YouTube iframe (hidden until play clicked) -->
+          <iframe
+            id="brochureIframe"
+            class="brochure__iframe"
+            src=""
+            data-src="https://www.youtube.com/embed/c6xNXM-diaU?autoplay=1"
+            title="VIDEO GUARD Broschüre Video"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+  <!-- ============================================================
+     KOOI GRUPPE SECTION
+     ============================================================ -->
+<section class="kooi">
+  <div class="kooi__inner">
+
+    <!-- DESKTOP: 2-column layout -->
+    <div class="kooi__desktop">
+
+      <!-- Left: text + checkmarks + CTAs -->
+      <div class="kooi__left">
+        <div class="kooi__title-wrap">
+          <div class="kooi__accent-bar"></div>
+          <h2 class="kooi__title">VIDEO GUARD ist jetzt Teil der Kooi-Gruppe</h2>
+        </div>
+        <p class="kooi__text">
+          Seit 2006 schützt VIDEO GUARD Baustellen in Deutschland mit innovativer
+          Videoüberwachungstechnik und einer eigenen Alarmzentrale. Heute sind wir Teil der
+          Kooi-Gruppe – des europäischen Marktführers für mobile Baustellenüberwachung und
+          Sicherheitslösungen. Für Sie bedeutet das: gewohnte deutsche Qualität, persönliche
+          Betreuung und kurze Wege, kombiniert mit der Stärke und dem Innovationspotenzial eines
+          europaweit aufgestellten Sicherheitsspezialisten.
+        </p>
+        <p class="kooi__text kooi__text--bold">Konkret profitieren Sie von:</p>
+        <ul class="kooi__checklist">
+          <li><span class="kooi__check">✓</span><span>Bewährte deutsche Marke mit über 19 Jahren Erfahrung</span></li>
+          <li><span class="kooi__check">✓</span><span>Eigene 24/7-Alarmzentrale in Deutschland – kein Outsourcing</span></li>
+          <li><span class="kooi__check">✓</span><span>Zugriff auf europaweit gesammeltes Know-how und neueste Technologien</span></li>
+          <li><span class="kooi__check">✓</span><span>Erweiterte Service-Optionen für grenzüberschreitende Bauprojekte</span></li>
+          <li><span class="kooi__check">✓</span><span>Gleiche Ansprechpartner – mehr Möglichkeiten</span></li>
+        </ul>
+        <div class="kooi__cta-row">
+          <button class="kooi__btn kooi__btn--primary" onclick="document.querySelector('[data-section=&quot;angebot-erhalten&quot;]')?.scrollIntoView({behavior:'smooth',block:'start'})">
+            Jetzt Objekt Schützen
+          </button>
+          <button class="kooi__btn kooi__btn--secondary">Mehr erfahren</button>
+        </div>
+      </div>
+
+      <!-- Right: image -->
+      <div class="kooi__image-wrap">
+        <img
+          src="https://images.unsplash.com/photo-1521791136064-7986c2920216?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080"
+          alt="Kooi-Gruppe Partnerschaft"
+          loading="lazy"
+        >
+      </div>
+    </div>
+
+    <!-- MOBILE: stacked -->
+    <div class="kooi__mobile">
+      <div class="kooi__title-wrap">
+        <div class="kooi__accent-bar"></div>
+        <h2 class="kooi__title">VIDEO GUARD ist jetzt Teil der Kooi-Gruppe</h2>
+      </div>
+      <div class="kooi__image-wrap kooi__image-wrap--mobile">
+        <img
+          src="https://images.unsplash.com/photo-1521791136064-7986c2920216?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080"
+          alt="Kooi-Gruppe Partnerschaft"
+          loading="lazy"
+        >
+      </div>
+      <p class="kooi__text">
+        Seit 2006 schützt VIDEO GUARD Baustellen in Deutschland mit innovativer
+        Videoüberwachungstechnik und einer eigenen Alarmzentrale. Heute sind wir Teil der
+        Kooi-Gruppe – des europäischen Marktführers für mobile Baustellenüberwachung und
+        Sicherheitslösungen.
+      </p>
+      <p class="kooi__text kooi__text--bold">Konkret profitieren Sie von:</p>
+      <ul class="kooi__checklist kooi__checklist--mobile">
+        <li><span class="kooi__check">✓</span><span>Bewährte deutsche Marke mit über 19 Jahren Erfahrung</span></li>
+        <li><span class="kooi__check">✓</span><span>Eigene 24/7-Alarmzentrale in Deutschland – kein Outsourcing</span></li>
+        <li><span class="kooi__check">✓</span><span>Zugriff auf europaweit gesammeltes Know-how und neueste Technologien</span></li>
+        <li><span class="kooi__check">✓</span><span>Erweiterte Service-Optionen für grenzüberschreitende Bauprojekte</span></li>
+        <li><span class="kooi__check">✓</span><span>Gleiche Ansprechpartner – mehr Möglichkeiten</span></li>
+      </ul>
+      <div class="kooi__cta-row">
+        <button class="kooi__btn kooi__btn--primary" onclick="document.querySelector('[data-section=&quot;angebot-erhalten&quot;]')?.scrollIntoView({behavior:'smooth',block:'start'})">
+          Jetzt Objekt Schützen
+        </button>
+        <button class="kooi__btn kooi__btn--secondary">Mehr erfahren</button>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ============================================================
+     FAQ SECTION
+     ============================================================ -->
+<section class="faq">
+  <div class="faq__inner">
+
+    <div class="faq__title-wrap">
+      <div class="faq__accent-bar"></div>
+      <h2 class="faq__title">Häufige Fragen zur mobilen Videoüberwachung auf Baustellen</h2>
+    </div>
+    <p class="faq__subtitle">
+      Sie haben Fragen rund um Baustellensicherheit, DSGVO, Kosten oder den Ablauf? Hier finden
+      Sie die häufigsten Antworten auf einen Blick. Ihre Frage ist nicht dabei?
+      <strong>Sprechen Sie uns direkt an.</strong>
+    </p>
+
+    <div class="faq__list" id="faqList">
+
+      <div class="faq__item">
+        <div class="faq__divider"></div>
+        <button class="faq__trigger" aria-expanded="false">
+          <span>Wie schnell kann das System installiert werden?</span>
+          <svg class="faq__chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="6 9 12 15 18 9"/>
+          </svg>
+        </button>
+        <div class="faq__answer">
+          <p>In der Regel erfolgt die Installation innerhalb von 24–48 Stunden nach Auftragserteilung. Unser Team koordiniert Lieferung, Aufbau und Konfiguration direkt vor Ort – ohne Unterbrechung Ihres Betriebs.</p>
+        </div>
+      </div>
+
+      <div class="faq__item">
+        <div class="faq__divider"></div>
+        <button class="faq__trigger" aria-expanded="false">
+          <span>Ist die Lösung DSGVO-konform?</span>
+          <svg class="faq__chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="6 9 12 15 18 9"/>
+          </svg>
+        </button>
+        <div class="faq__answer">
+          <p>Ja. Unsere Systeme sind vollständig DSGVO-konform ausgelegt. Das umfasst klar sichtbare Hinweisschilder, verschlüsselte Datenübertragung, kontrollierte Zugriffsverwaltung sowie die vollständige DSGVO-Dokumentation, die wir Ihnen bereitstellen.</p>
+        </div>
+      </div>
+
+      <div class="faq__item">
+        <div class="faq__divider"></div>
+        <button class="faq__trigger" aria-expanded="false">
+          <span>Was kostet die mobile Baustellenüberwachung?</span>
+          <svg class="faq__chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="6 9 12 15 18 9"/>
+          </svg>
+        </button>
+        <div class="faq__answer">
+          <p>Die Mietpreise richten sich nach der Anzahl der Kameratürme, dem Überwachungsumfang und der Laufzeit. Wir erstellen Ihnen innerhalb von 60 Minuten ein individuelles Angebot – ohne versteckte Kosten.</p>
+        </div>
+      </div>
+
+      <div class="faq__item">
+        <div class="faq__divider"></div>
+        <button class="faq__trigger" aria-expanded="false">
+          <span>Wie funktioniert die Überwachung nachts oder bei schlechtem Wetter?</span>
+          <svg class="faq__chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="6 9 12 15 18 9"/>
+          </svg>
+        </button>
+        <div class="faq__answer">
+          <p>Unsere Kameras sind mit Infrarottechnik und KI-gestützter Videoanalyse ausgestattet. Sie erkennen unbefugte Bewegungen zuverlässig auch bei Dunkelheit, Regen oder Sturm. Die Systeme sind für harte Außeneinsätze konzipiert und halten extremen Bedingungen stand.</p>
+        </div>
+      </div>
+
+      <div class="faq__item">
+        <div class="faq__divider"></div>
+        <button class="faq__trigger" aria-expanded="false">
+          <span>Kann ich die Kameratürme während des Mietverhältnisses umstellen?</span>
+          <svg class="faq__chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="6 9 12 15 18 9"/>
+          </svg>
+        </button>
+        <div class="faq__answer">
+          <p>Ja. Standortwechsel innerhalb des Mietzeitraums sind ohne Aufpreis möglich. Wir koordinieren den Umzug und passen die Überwachungszonen entsprechend an.</p>
+        </div>
+      </div>
+
+      <div class="faq__item">
+        <div class="faq__divider"></div>
+        <button class="faq__trigger" aria-expanded="false">
+          <span>Was passiert bei einem Alarm?</span>
+          <svg class="faq__chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="6 9 12 15 18 9"/>
+          </svg>
+        </button>
+        <div class="faq__answer">
+          <p>Bei einem Alarm prüft unsere Leitstelle den Vorfall per Live-Video und spricht die Täter bei Bedarf direkt über Lautsprecher mit bis zu 120 Dezibel an. Auf Wunsch wird außerdem sofort Polizei oder ein Wachdienst alarmiert. Vom Erkennen einer Bedrohung bis zur Intervention vergehen in der Regel weniger als 60 Sekunden.</p>
+        </div>
+      </div>
+
+      <div class="faq__divider"></div>
+    </div>
+
+  </div>
+</section>
+</body>
+</html>
